@@ -1,0 +1,42 @@
+class Solution {
+public:
+    vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
+        
+
+
+int n=candies.size();
+   
+   vector<bool>arr;
+
+     
+
+     int greatest_candies=0;
+
+     for(int i=0;i<n;i++){
+
+           if(greatest_candies<candies[i]){
+
+                greatest_candies=candies[i];
+           }
+     }
+
+
+      for (int j=0;j<n;j++){
+
+
+             if(greatest_candies<=(candies[j]+extraCandies)){
+
+                  arr.push_back(true);
+             }
+             else{
+
+                  arr.push_back(false);
+             }
+      }
+
+     return arr;
+
+
+
+    }
+};
