@@ -12,13 +12,15 @@ public:
       
 
 
-         if(students[i]>seats[i]){
-             moves=moves+(students[i]-seats[i]);
-         }
-         else{
+//          if(students[i]>seats[i]){
+//              moves=moves+(students[i]-seats[i]);
+//          }
+//          else{
 
-              moves=moves+(seats[i]-students[i]);
-         }
+//               moves=moves+(seats[i]-students[i]);
+//          }
+         moves=moves+(abs(seats[i]-students[i]));
+
 
        }
 
