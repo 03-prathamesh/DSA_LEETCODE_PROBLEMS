@@ -1,3 +1,3 @@
-LEETCODE
+<h1>LEETCODE</h1>
 
-![Leetcode Stats](https://prathameshamundkar.jacoblin.cool/JacobLinCool?ext=activity)
+![Leetcode Stats](https://leetcard.prathameshamundkar.cool/prathameshamundkarCool?ext=activity)
