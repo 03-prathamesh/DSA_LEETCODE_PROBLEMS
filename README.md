@@ -1,3 +1,3 @@
-<h1>LEETCODE</h1>
+# [LeetCode](https://www.leetcode.com/prathameshamundkar)
 
-![Leetcode Stats](https://leetcard.prathameshamundkar/prathameshamundkar?ext=activity)
+[![LeetCode Stats](https://leetcode.card.workers.dev/Mr_Vicky?theme=dark&font=&extension=activity)](https://leetcode.com/prathameshamundkar/)
