@@ -1,2 +1,2 @@
 
-<!-- ![](https://leetcard.jacoblin.cool/prathameshamundkar?ext=heatmap) -->
+![](https://leetcard.jacoblin.cool/prathameshamundkar?ext=heatmap)
