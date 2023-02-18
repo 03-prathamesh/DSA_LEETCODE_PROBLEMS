@@ -1,0 +1,23 @@
+class Solution {
+public:
+    int countDigits(int num) {
+
+ int count=0;
+
+int temp_var=num;
+ while(temp_var!=0){
+     
+     int temp = temp_var%10;
+
+     if(num%temp==0){
+
+         count++;
+     }
+     temp_var=temp_var/10;
+
+ }
+
+
+return count;
+    }
+};
