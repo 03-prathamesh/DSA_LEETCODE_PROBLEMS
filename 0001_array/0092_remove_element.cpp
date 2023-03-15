@@ -14,3 +14,19 @@ public:
        return nums.size();
     }
 };
+
+
+//  constant space complexity : no space is used
+class Solution {
+public:
+int removeElement(vector<int>& v, int val) {
+    int j=0; 
+    for(int x:v){
+        if(x!=val){
+            v[j]=x;
+            j++;
+        }
+    }
+    return j;
+}  
+};
