@@ -14,6 +14,7 @@ public:
                 }
                 if(found==x.size()){
                     ans++;
+                    //ans=ans+1;
                 }
             }
         }
