@@ -12,5 +12,5 @@ public:
             sum+=ans[i];
         }
         return sum;
-    }
+    }//
 };
