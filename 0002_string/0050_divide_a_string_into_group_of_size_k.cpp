@@ -10,7 +10,7 @@ public:
                 
                 t=0;
                 ans.push_back(temp);
-                temp.clear(); //temp="";
+                temp.clear(); //temp="";;
             }
             temp=temp+s[i];
             t++;
