@@ -12,6 +12,6 @@ public:
             }
         }
         cost=min(odd,even);
-        return cost;
+        return cost;//cost
     }
 };
