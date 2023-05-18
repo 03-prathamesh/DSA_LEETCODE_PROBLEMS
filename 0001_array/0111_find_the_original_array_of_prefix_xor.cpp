@@ -7,6 +7,6 @@ public:
         for(int i=1;i<pref.size();i++){  
             ans.push_back(pref[i]^pref[i-1]);
         }
-        return ans;
+        return ans;//ans
     }
 };
