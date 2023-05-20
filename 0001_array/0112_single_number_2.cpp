@@ -7,7 +7,7 @@ public:
         }
         for(auto i:mp){
             if(i.second==1){
-                return i.first;
+                return i.first;//first should be unique
             }
         }
         return 0;
