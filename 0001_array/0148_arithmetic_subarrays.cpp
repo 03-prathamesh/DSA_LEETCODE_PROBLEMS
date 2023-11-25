@@ -22,7 +22,7 @@ public:
             }
              bool main_ans=check(temp);
              ans.push_back(main_ans);
-             temp.clear();
+            //  temp.clear();  there is no need to clear because every time after i it creates new temp with 0 elements
         }
         return ans;
     }
