@@ -9,8 +9,10 @@ public:
         ans.push_back({1});
         ans.push_back({1,1});
         for(int i=2;i<numRows;i++){
+
             vector<int>row;
-            row.push_back(1);
+            row.push_back(1);    //find alternative syntax to this
+            
             for(int j=0;j<i-1;j++){
                 int add=ans[i-1][j]+ans[i-1][j+1];
                 row.push_back(add);
