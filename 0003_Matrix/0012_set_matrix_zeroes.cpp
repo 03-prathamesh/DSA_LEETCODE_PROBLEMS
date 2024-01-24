@@ -7,9 +7,12 @@ public:
             pair<int,int>temp;
             for(int j=0;j<matrix[i].size();j++){
                 if(matrix[i][j]==0){
-                      zeros.push_back({i,j});
+                    //   zeros.push_back({i,j});
                     // toSetZero.push_back(make_pair(i, j)) alternate syntax to above syntax ;
-                   
+                    temp.first=i;
+                    temp.second=j;
+                    zeros.push_back(temp);
+
                 }
             }
         }
